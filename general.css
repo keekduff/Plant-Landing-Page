@@ -1,0 +1,97 @@
+/* GENERAL/UNIVERSAL STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font-size: 62.5% in your html means that you divide by 10 instead of 16 */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+}
+
+/******** REUSABLE CLASSES ********/
+
+/* CONTAINER */
+
+.container {
+    max-width: 130rem;
+    margin: auto;
+}
+
+
+/* FLEX */
+
+.d-flex {
+   display: flex;
+}
+
+.align-items-ct {
+    align-items: center;
+}
+
+.justify-items-ct {
+    justify-items: center;
+}
+
+.align-justify-ct {
+    align-items: center;
+    justify-content: center;
+}
+
+/* GAPS */
+
+.gap-sm {
+    gap: 2rem;
+}
+
+.gap-md {
+    gap: 6rem;
+}
+
+.gap-bg {
+    gap: 8rem;
+}
+
+/* BUTTONS */
+
+.btn {
+    height: 3.5rem;
+    width: 12rem;
+    border: none;
+    color: #f5f5f5;
+    border-radius: 0.3rem;
+}
+
+.btn-bg {
+    background-color: #ffd689;
+    height: 4rem;
+    width: 14rem;
+    color: #f5f5f5;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.btn-green {
+    background-color: #005047;
+}
+
+.btn-orange {
+    background-color: #ffd689;
+}
+
+.margin-right-x-sm {
+    margin-right: 0.6rem;
+}
+
+.margin-bottom-md {
+    margin-bottom: 2.0rem;
+}
+

@@ -1,0 +1,85 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+
+header {
+    height: 70vh;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+    height: 100%;
+}
+
+.hero-section nav {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* NAVIGATION */
+
+.navigation {
+    padding: 3.0rem 0;
+}
+
+.nav-icon {
+    color: #b7e1b7;
+    height: 3.2rem;
+    width: 3.2rem;
+}
+
+.logo-box a {
+    font-size: 2.0rem;
+    color: #b7e1b7;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero-content {
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #fde4b7, #f5f5f5);
+    position: absolute;
+    top: 0;
+}
+
+.left-hero {
+    height: 100%;
+    width: 40%;
+    background-color: #005047;
+    border-bottom-right-radius: 4.0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-hero div {
+    width: 80%;
+    margin-left: 2.6rem;
+}
+
+.hero-text {
+    width: 95%;
+    text-align: left;
+    font-size: 3.5rem;
+    letter-spacing: -1px;
+    color: #f5f5f5;
+}
+
+.hero-subtext {
+    text-align: left;
+    font-size: 2.2rem;
+    word-spacing: .05rem;
+    color: #f5f5f5;
+}
+
+.right-hero {
+    height: 100%;
+    width: 60%;
+    /* background-image: linear-gradient(to bottom, #fde4b7, #f5f5f5); */
+}
