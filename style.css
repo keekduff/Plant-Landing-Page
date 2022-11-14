@@ -1,85 +1,196 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap");
 
 header {
-    height: 70vh;
+  height: 70vh;
+  margin-bottom: 15rem;
 }
 
 /* HERO SECTION */
 
 .hero-section {
-    height: 100%;
+  height: 100%;
 }
 
 .hero-section nav {
-    position: relative;
-    z-index: 5;
-    display: flex;
-    justify-content: space-between;
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* NAVIGATION */
 
 .navigation {
-    padding: 3.0rem 0;
+  padding: 3rem 0;
 }
 
 .nav-icon {
-    color: #b7e1b7;
-    height: 3.2rem;
-    width: 3.2rem;
+  color: #fde4b7;
+  height: 3.2rem;
+  width: 3.2rem;
+  cursor: pointer;
+}
+
+.btn {
+  font-size: 1.4rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-bg {
+  font-size: 1.8rem;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .logo-box a {
-    font-size: 2.0rem;
-    color: #b7e1b7;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fde4b7;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
 }
 
 .hero-content {
-    height: 70vh;
-    width: 100%;
-    background-image: linear-gradient(to bottom, #fde4b7, #f5f5f5);
-    position: absolute;
-    top: 0;
+  height: 80vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #fde4b7, #f5f5f5);
+  position: absolute;
+  top: 0;
 }
 
 .left-hero {
-    height: 100%;
-    width: 40%;
-    background-color: #005047;
-    border-bottom-right-radius: 4.0rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 100%;
+  width: 40%;
+  background-color: #005047;
+  border-bottom-right-radius: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .left-hero div {
-    width: 80%;
-    margin-left: 2.6rem;
+  /* width: 80%;
+    margin-left: 2.6rem; */
 }
 
 .hero-text {
-    width: 95%;
-    text-align: left;
-    font-size: 3.5rem;
-    letter-spacing: -1px;
-    color: #f5f5f5;
+  max-width: 90%;
+  /* text-align: left; */
+  font-size: 4rem;
+  letter-spacing: -1px;
+  color: #f5f5f5;
 }
 
 .hero-subtext {
-    text-align: left;
-    font-size: 2.2rem;
-    word-spacing: .05rem;
-    color: #f5f5f5;
+  text-align: left;
+  font-size: 2.4rem;
+  word-spacing: 0.05rem;
+  color: #f5f5f5;
 }
 
 .right-hero {
-    height: 100%;
-    width: 60%;
-    /* background-image: linear-gradient(to bottom, #fde4b7, #f5f5f5); */
+  height: 100%;
+  width: 60%;
+  /* background-image: linear-gradient(to bottom, #fde4b7, #f5f5f5); */
+}
+
+.hero-img-box {
+  display: flex;
+  margin-top: 6rem;
+  /* height: 80rem;
+  width: 80rem; */
+}
+
+.hero-img {
+  height: 30rem;
+  width: 30rem;
+}
+
+.img-1 {
+  border-top-left-radius: 5rem;
+}
+
+.img-2 {
+  position: relative;
+  height: 10rem;
+  background-color: #bff0bf;
+  border-bottom-left-radius: 1rem;
+}
+
+.img-3 {
+  position: relative;
+  height: 10rem;
+  background-color: #005047;
+  border-top-right-radius: 1rem;
+}
+
+.img-4 {
+  border-bottom-right-radius: 5rem;
+}
+
+.plant-floating {
+  height: 20rem;
+  transform: rotate(120deg);
+  position: absolute;
+  top: -40px;
+  left: 30px;
+}
+
+.plant-floating-copy {
+  height: 20rem;
+  position: absolute;
+  transform: rotate(240deg);
+  right: -10px;
+}
+
+.small-circle {
+  bottom: 30rem;
+  left: 68rem;
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 100px;
+  background-color: #62b8acb5;
+}
+
+.small-circle-2 {
+  top: 10rem;
+  left: 65rem;
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  border: 6px solid #ecc57e8d;
+  border-radius: 100px;
+  background-color: #62b8ad01;
+}
+
+.updates-container {
+  margin-bottom: 5rem;
+}
+
+.update-card {
+  /* height: 40rem;
+  width: 40rem; */
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 15px;
+
+  /* padding: 3rem; */
+}
+
+.update-img {
+  height: 25rem;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.update-details {
+  padding: 2rem 2.4rem;
+}
+
+.update-details h3 {
+  color: #005047;
 }
