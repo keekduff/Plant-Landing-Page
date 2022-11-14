@@ -1,20 +1,20 @@
 /* GENERAL/UNIVERSAL STYLES */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* font-size: 62.5% in your html means that you divide by 10 instead of 16 */
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-size: 1.6rem;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #f5f5f5;
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f5f5f5;
 }
 
 /******** REUSABLE CLASSES ********/
@@ -22,76 +22,133 @@ body {
 /* CONTAINER */
 
 .container {
-    max-width: 130rem;
-    margin: auto;
+  max-width: 145rem;
+  margin: auto;
 }
 
+.container-2 {
+  max-width: 120rem;
+  margin: auto;
+}
+
+/* HEADINGS */
+.heading-secondary {
+  color: #005047;
+}
 
 /* FLEX */
 
 .d-flex {
-   display: flex;
+  display: flex;
 }
 
 .align-items-ct {
-    align-items: center;
+  align-items: center;
 }
 
 .justify-items-ct {
-    justify-items: center;
+  justify-items: center;
 }
 
 .align-justify-ct {
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* GRIDS */
+.grid-col {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.grid-2-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-2-rows {
+  grid-template-rows: 2fr 1fr;
 }
 
 /* GAPS */
+.gap-xtr-sm {
+  gap: 1rem;
+}
 
 .gap-sm {
-    gap: 2rem;
+  gap: 2rem;
 }
 
 .gap-md {
-    gap: 6rem;
+  gap: 6rem;
 }
 
 .gap-bg {
-    gap: 8rem;
+  gap: 8rem;
 }
 
 /* BUTTONS */
 
 .btn {
-    height: 3.5rem;
-    width: 12rem;
-    border: none;
-    color: #f5f5f5;
-    border-radius: 0.3rem;
+  height: 4rem;
+  width: 15rem;
+  border: none;
+  color: #fff;
+  border-radius: 0.3rem;
 }
 
 .btn-bg {
-    background-color: #ffd689;
-    height: 4rem;
-    width: 14rem;
-    color: #f5f5f5;
-    border-radius: 0.5rem;
-    border: none;
+  background-color: #ffd689;
+  height: 6rem;
+  width: 20rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  border: none;
 }
 
 .btn-green {
-    background-color: #005047;
+  background-color: #005047;
 }
 
 .btn-orange {
-    background-color: #ffd689;
+  background-color: #f9c462;
 }
 
+/* MARGINS */
+
 .margin-right-x-sm {
-    margin-right: 0.6rem;
+  margin-right: 0.6rem;
+}
+
+.margin-top-md {
+  margin-top: 6rem;
 }
 
 .margin-bottom-md {
-    margin-bottom: 2.0rem;
+  margin-bottom: 2rem;
 }
 
+.margin-bottom-bg {
+  margin-bottom: 4rem;
+}
+
+/* PADDINGS */
+
+.padding-md {
+  padding: 4rem;
+}
+
+/* TEXT_ALIGN */
+.text-align-ct {
+  text-align: center;
+}
