@@ -166,6 +166,8 @@ header {
   background-color: #62b8ad01;
 }
 
+/****** UPDATES SECTION ******/
+
 .updates-container {
   margin-bottom: 5rem;
 }
@@ -193,4 +195,20 @@ header {
 
 .update-details h3 {
   color: #005047;
+}
+
+/****** UPDATES SECTION ******/
+
+.section-testimonial{
+  margin-top: 10rem;
+}
+
+.t-card{
+  height: 40rem;
+  width: 40rem;
+  border: 1px solid black;
+}
+
+.t-card img {
+  justify-self: center;
 }
